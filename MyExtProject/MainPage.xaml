@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyExtProject.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                x:Name="imgWall"
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="lbTxt"
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+
+            <Button
+                x:Name="BtnOne"
+                Text="Image_1"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="BtnOne_Click"/>
+
+            <Button
+                x:Name="BtnTwo"
+                Text="Image_2"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="BtnTwo_Clicked"/>
+
+            <Button
+                x:Name="BtnThree"
+                Text="Image_3"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="BtnThree_Clicked"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -11,8 +11,8 @@ public partial class MainPage : ContentPage
 
 	private void BtnOne_Click(object sender, EventArgs e)
 	{
-		imgWall.Source = "pika.png";
-		lbTxt.Text = "Pikachu";
+		imgWall.Source = "serdce.png";
+		lbTxt.Text = "You are beautiful!!!";
 	}
 
 	private void BtnTwo_Clicked(object sender, EventArgs e)
